@@ -74,7 +74,7 @@ const slides = [
     type: "content",
     bullets: [
       "Representación en tablas planas",
-      "Necesidad de múltiples JOIN costosos",
+      "Necesidad de múltiples JOIN(combinaciones) costosos",
       "Dificultad para modelar jerarquías profundas",
       "Bajo rendimiento ante estructuras anidadas"
     ],
