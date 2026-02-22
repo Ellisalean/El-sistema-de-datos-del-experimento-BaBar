@@ -29,7 +29,7 @@ import { motion, AnimatePresence } from 'motion/react';
 const slides = [
   {
     id: 1,
-    title: "Sistema de Datos del Experimento BaBar y el Uso de Objectivity/DB",
+    title: "Sistema de Datos del Experimento BaBar y el Uso de Objetividad/DB",
     subtitle: "Bases de Datos Orientadas a Objetos en Física de Altas Energías",
     type: "title",
     content: [
@@ -37,7 +37,7 @@ const slides = [
       "Gestión de datos complejos y estructuras anidadas",
       "Solución basada en Objectivity/DB"
     ],
-    image: "https://picsum.photos/seed/babar/800/600?blur=2",
+    image: "https://blog.continentaluniversity.us/hubfs/que-es-sistema-gestion-base-datos-cuf.jpg",
     explanation: "BaBar fue un experimento de física de altas energías diseñado para estudiar la violación de simetría CP en mesones B. Generaba volúmenes masivos de datos con estructuras altamente complejas."
   },
   {
@@ -64,7 +64,7 @@ const slides = [
       "Generación masiva de datos científicos",
       "Estructuras de datos complejas y anidadas"
     ],
-    image: "https://picsum.photos/seed/physics/1000/1200",
+    image: "https://estaticos-cdn.prensaiberica.es/clip/9a433f45-1eea-42fa-b9a2-3a598dc77860_alta-libre-aspect-ratio_default_0.jpg",
     icon: Atom
   },
   {
@@ -78,7 +78,7 @@ const slides = [
       "Dificultad para modelar jerarquías profundas",
       "Bajo rendimiento ante estructuras anidadas"
     ],
-    image: "https://picsum.photos/seed/database/600/400",
+    image: "https://www.ofiprix.com/blog_images/wp-content/uploads/2017/03/hiperconectividad-450x316.jpg",
     icon: Table
   },
   {
@@ -88,7 +88,7 @@ const slides = [
     type: "section-title",
     number: "3",
     description: "Un sistema orientado a objetos almacena los datos tal como existen en el programa. No necesita transformarlos en tablas. Soporta herencia, encapsulamiento y asociaciones.",
-    image: "https://picsum.photos/seed/object/1200/600",
+    image: "https://ecuador.unir.net/wp-content/uploads/sites/8/2025/09/Programacion-orientada-a-objetos-que-es-y-lenguajes-principales.jpg",
   },
   {
     id: 6,
