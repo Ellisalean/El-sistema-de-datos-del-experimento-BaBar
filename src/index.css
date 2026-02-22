@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-diag-bg: #f8fafc;
+  --color-diag-primary: #00bce1;
+  --color-diag-secondary: #049fd9;
+  --color-diag-accent: #f97316;
+  --color-diag-muted: #e2e8f0;
+  --color-diag-border: #cbd5e1;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-diag-bg text-slate-800 overflow-hidden;
+  }
+}
+
+.slide-container {
+  @apply bg-slate-50/95 backdrop-blur-md rounded-3xl border-2 border-sky-100 shadow-2xl shadow-sky-900/10 overflow-hidden flex flex-col;
+  height: 80vh;
+  width: 94vw;
+  max-width: 1600px;
+}
+
+.slide-header {
+  @apply bg-gradient-to-r from-[#049fd9] to-[#00bce1] px-12 py-6 text-white shadow-xl flex justify-between items-center w-full z-20;
+}
+
+.slide-content {
+  @apply flex-1 p-10 overflow-y-auto relative;
+}
+
+.nav-button {
+  @apply p-3 rounded-full bg-white border-2 border-sky-100 text-sky-600 shadow-sm transition-all hover:bg-sky-50 hover:border-sky-300 disabled:opacity-30 disabled:cursor-not-allowed;
+}
+
+.accent-bar {
+  @apply h-1.5 w-24 bg-orange-500 rounded-full mb-6;
+}
+
+.bullet-item {
+  @apply flex items-start gap-3 mb-4 text-slate-700;
+}
+
+.bullet-icon {
+  @apply mt-1.5 w-2 h-2 rounded-full bg-orange-500 shrink-0;
+}
+
+.diag-gradient-bg {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
