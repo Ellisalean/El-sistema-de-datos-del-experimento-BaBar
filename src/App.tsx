@@ -200,7 +200,7 @@ export default function App() {
         
         <div className="flex items-center gap-8">
           <span className="text-sm font-display font-bold bg-black/20 px-4 py-1.5 rounded-full">
-            DIAPOSITIVA {currentSlide + 1} / {slides.length}
+             {currentSlide + 1} / {slides.length}
           </span>
           <div className="flex gap-3">
             <button onClick={() => goToSlide(1)} className="p-2.5 hover:bg-white/10 rounded-xl transition-colors" title="Índice">
