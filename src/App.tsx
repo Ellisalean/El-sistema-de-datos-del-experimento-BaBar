@@ -47,7 +47,7 @@ const slides = [
     items: [
       "Contexto del Proyecto BaBar",
       "Problema del Modelo Relacional",
-      "¿Qué es Objectivity/DB?",
+      "¿Qué es Objetividad/DB?",
       "Ventajas en el Manejo de Objetos Complejos",
       "Relaciones, Asociaciones y Jerarquías",
       "Conclusiones"
@@ -83,8 +83,8 @@ const slides = [
   },
   {
     id: 5,
-    header: "3. ¿Qué es Objectivity/DB?",
-    title: "¿Qué es Objectivity/DB?",
+    header: "3. ¿Qué es Objetividad/DB?",
+    title: "¿Qué es Objetividad/DB?",
     type: "section-title",
     number: "3",
     description: "Un sistema orientado a objetos almacena los datos tal como existen en el programa. No necesita transformarlos en tablas. Soporta herencia, encapsulamiento y asociaciones.",
