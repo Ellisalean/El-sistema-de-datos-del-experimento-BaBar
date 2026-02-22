@@ -35,7 +35,7 @@ const slides = [
     content: [
       "Proyecto BaBar – Física de Partículas",
       "Gestión de datos complejos y estructuras anidadas",
-      "Solución basada en Objectivity/DB"
+      "Solución basada en Objetividad/DB"
     ],
     image: "https://blog.continentaluniversity.us/hubfs/que-es-sistema-gestion-base-datos-cuf.jpg",
     explanation: "BaBar fue un experimento de física de altas energías diseñado para estudiar la violación de simetría CP en mesones B. Generaba volúmenes masivos de datos con estructuras altamente complejas."
@@ -193,7 +193,7 @@ export default function App() {
             <Database className="w-7 h-7 text-white" />
           </div>
           <div>
-            <h2 className="font-display font-bold text-2xl leading-tight">Objectivity/DB en BaBar</h2>
+            <h2 className="font-display font-bold text-2xl leading-tight">Objetividad/DB en BaBar</h2>
             <p className="text-sm text-sky-100 font-medium">{slide.header || "Presentación"}</p>
           </div>
         </div>
